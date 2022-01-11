@@ -23,8 +23,8 @@ public class ScoreSort {
 
         System.out.println();
         System.out.print("화장실(정렬) 들어가기 후 = ");
-        for (int i=0; i < scores.length; i++) {
-            System.out.print(scores[i] + " ");
+        for (int score : scores) {
+            System.out.print(score + " ");
         }
     }
 }
