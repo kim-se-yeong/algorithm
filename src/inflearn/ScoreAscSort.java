@@ -9,7 +9,7 @@ import java.util.Arrays;
  * 이 문제는 따로 정렬 알고리즘을 구현하지 않고 내장된 정렬 함수를 사용해서 정렬해보는 문제이다.
  * 주어진 값 : [88, 50, 38, 100, 90, 100, 99, 65]
  */
-public class ScoreSort {
+public class ScoreAscSort {
     public static void main(String[] args) {
 
         int[] scores = {88, 50, 38, 100, 90, 100, 99, 65};
