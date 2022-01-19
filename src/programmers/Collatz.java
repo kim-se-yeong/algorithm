@@ -14,6 +14,12 @@ public class Collatz {
    
     public static void main(String[] args) {
         
+        /**
+         * 예시로 나와있던 626331 숫자는 int형이면 오답이 나온다.
+         * 이유는, 해당 숫자가 루프문 과정에서 홀수이면서 num이 가질 수 있는 최대 큰 수라면 3을 곱하였을 때
+         * int 범위를 초과하게 되어 연산이 뒤틀리게된다.
+         * 따라서 long 타입을 가져야 한다.
+         */
         long num = 16;
         int count = 0;
 
