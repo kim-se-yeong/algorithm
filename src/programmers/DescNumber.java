@@ -12,7 +12,6 @@ public class DescNumber {
     public static void main(String[] args) {
         
         long num = 118372;
-
         String[] arr = String.valueOf(num).split("");
 
         Arrays.sort(arr);
