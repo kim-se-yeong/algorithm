@@ -8,6 +8,9 @@ public class Digits {
     
     public static void main(String[] args) {
         
+        /**
+         * 효율성 떨어짐, 다른 방법으로 다시 풀기
+         */
         int num = 123;
         String[] arr = String.valueOf(num).split("");
         
