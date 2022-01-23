@@ -13,6 +13,7 @@ public class SmallestNumber {
         int[] answer = new int[arr.length - 1];
 
         if (arr.length == 1) {
+            answer = new int[1];
             answer[0] = -1;
         }
 
